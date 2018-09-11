@@ -15,5 +15,5 @@
 /firmware     vfat	    /dev/block/bootdevice/by-name/modem 	flags=display="Modem";backup=1
 /aboot 	      emmc 	    /dev/block/bootdevice/by-name/aboot 	flags=display="Boot-Loader";backup=1
 
-/external_sd  vfat          /dev/block/mmcblk1p1   	  		flags=display="MicroSD-Card";storage;wipeingui;removable
+/external_sd  vfat          /dev/block/mmcblk1p1   	  		flags=display="MicroSD-Card";storage;removable
 /usb-otg      vfat 	    /dev/block/sda1 				flags=display="USB-OTG";storage;removable
